@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureRedisMessage", "AzureRedisMessage.csproj", "{8499C82E-264B-4124-A626-52B4F322B791}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureRedisSubscriber", "..\AzureRedisSubscriber\AzureRedisSubscriber.csproj", "{D508E343-4444-4E77-B72D-EC340DDAAED8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8499C82E-264B-4124-A626-52B4F322B791}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8499C82E-264B-4124-A626-52B4F322B791}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8499C82E-264B-4124-A626-52B4F322B791}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8499C82E-264B-4124-A626-52B4F322B791}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D508E343-4444-4E77-B72D-EC340DDAAED8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D508E343-4444-4E77-B72D-EC340DDAAED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D508E343-4444-4E77-B72D-EC340DDAAED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D508E343-4444-4E77-B72D-EC340DDAAED8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {49A7E846-36DC-49DE-B73A-2D21D620C582}
+	EndGlobalSection
+EndGlobal
